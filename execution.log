@@ -1,0 +1,57 @@
+Loading face detection models...
+✓ Models loaded successfully
+
+Found 4 image(s)
+
+Processing: TestCase1.jpeg
+  ✓ Image loaded (474x474)
+  Running face detection...
+  → Found 1 detection(s)
+  → 1 unique individual(s)
+
+Processing: TestCase2.jpeg
+  ✓ Image loaded (474x309)
+  Running face detection...
+  → Found 2 detection(s)
+  Filtered to 2 unique detections
+  Distance matrix:
+    Face 0 <-> Face 1: 0.5937
+  → 2 unique individual(s)
+
+Processing: TestCase3.jpeg
+  ✓ Image loaded (474x265)
+  Running face detection...
+  → Found 3 detection(s)
+  Filtered to 3 unique detections
+  Distance matrix:
+    Face 0 <-> Face 1: 0.7442
+    Face 0 <-> Face 2: 0.6166
+    Face 1 <-> Face 2: 0.7185
+  → 3 unique individual(s)
+
+Processing: TestCase4.jpeg
+  ✓ Image loaded (474x419)
+  Running face detection...
+  → Found 4 detection(s)
+  Filtered to 4 unique detections
+  Distance matrix:
+    Face 0 <-> Face 1: 0.4426
+    Face 0 <-> Face 2: 0.4336
+    Face 0 <-> Face 3: 0.5456
+    Face 1 <-> Face 2: 0.4819
+    Face 1 <-> Face 3: 0.5297
+    Face 2 <-> Face 3: 0.5084
+  → 1 unique individual(s)
+
+========== RESULTS ==========
+
+TestCase1.jpeg: 1 individual(s)
+TestCase2.jpeg: 2 individual(s)
+TestCase3.jpeg: 3 individual(s)
+TestCase4.jpeg: 1 individual(s)
+
+Total: 7 individual(s)
+
+(node:63076) [DEP0051] DeprecationWarning: The `util.isNullOrUndefined` API is deprecated. Please use `arg === null || arg === undefined` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:63076) [DEP0044] DeprecationWarning: The `util.isArray` API is deprecated. Please use `Array.isArray()` instead.
